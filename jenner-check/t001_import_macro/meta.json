@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_import_macro",
+  "source_file": "Import Macro.sas",
+  "source_blob_sha": "d4d0593d8b5d9bac0ad55fbfb2b6056841ccce43",
+  "source_commit": "648bce0f2e90063fdfc1f84b83a2d62613e013c2",
+  "notes": "Caller for the repo's %import macro (PROC IMPORT wrapper). Macro body is byte-identical except the datafile path join was changed from a literal backslash to a forward slash, since the author's join is Windows-specific and Jenner's engine runs on a POSIX filesystem -- verified by testing the unmodified backslash join, which fails with 'Input file not found' for exactly that reason (not a Jenner bug). The call exercises the macro's own documented quote-stripping (single and double quotes) and trailing-backslash-trim logic, matching the shape of the author's own example call. Input data is a 4-row inline CSV (region/visitors/year, invented placeholder figures) written to a WORK-library sandbox path in autoexec.sas, standing in for the author's real UNC network path (\\\\sasebi\\SAS User Data\\Josh Pearce\\DATA)."
+}
