@@ -1,0 +1,8 @@
+
+  Obs  region  visitors  year
+-----  ------  --------  ----
+    1  North       1200  2023
+    2  South        980  2023
+    3  East        1450  2023
+    4  West         875  2023
+

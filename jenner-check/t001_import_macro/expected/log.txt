@@ -1,0 +1,12 @@
+NOTE: Option OBS changed to 100.
+NOTE: Fileref OUTCSV assigned to /tmp/work/r_7e91f4e02ca241d6967de2d23ff505cc/work/427f3866-42ee-43fa-b41c-e66d1550ab61/tourism_sample.csv.
+NOTE: DATA _null_
+
+NOTE: Writing to fileref outcsv (/tmp/work/r_7e91f4e02ca241d6967de2d23ff505cc/work/427f3866-42ee-43fa-b41c-e66d1550ab61/tourism_sample.csv)
+NOTE: DATA _null_ completed. Output written to fileref outcsv (/tmp/work/r_7e91f4e02ca241d6967de2d23ff505cc/work/427f3866-42ee-43fa-b41c-e66d1550ab61/tourism_sample.csv)
+NOTE: PROC IMPORT datafile=/tmp/work/r_7e91f4e02ca241d6967de2d23ff505cc/work/427f3866-42ee-43fa-b41c-e66d1550ab61/tourism_sample.csv out=tourism_sample
+
+NOTE: Imported 4 rows from /tmp/work/r_7e91f4e02ca241d6967de2d23ff505cc/work/427f3866-42ee-43fa-b41c-e66d1550ab61/tourism_sample.csv.
+NOTE: PROC PRINT data=tourism_sample
+
+NOTE: PROC PRINT completed: 4 observations printed, 3 variables
